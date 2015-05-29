@@ -1,5 +1,4 @@
-FROM alpine:3.1
+FROM alpine:3.2
 
-RUN echo "@edge http://nl.alpinelinux.org/alpine/edge/main" >> /etc/apk/repositories && \
-    apk add --update go@edge && \
+RUN apk add --update go && \
     rm /var/cache/apk/*
