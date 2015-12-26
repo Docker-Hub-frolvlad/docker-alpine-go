@@ -1,4 +1,3 @@
-FROM alpine:3.2
+FROM alpine:3.3
 
-RUN apk add --update go && \
-    rm /var/cache/apk/*
+RUN apk add --no-cache go
