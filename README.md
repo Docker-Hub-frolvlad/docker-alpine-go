@@ -1,3 +1,7 @@
+[![Docker Stars](https://img.shields.io/docker/stars/frolvlad/alpine-go.svg?style=flat-square)](https://hub.docker.com/r/frolvlad/alpine-go/)
+[![Docker Pulls](https://img.shields.io/docker/pulls/frolvlad/alpine-go.svg?style=flat-square)](https://hub.docker.com/r/frolvlad/alpine-go/)
+
+
 Go Docker image
 ===============
 
