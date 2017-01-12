@@ -1,3 +1,3 @@
-FROM alpine:3.5
+FROM frolvlad/alpine-gcc
 
 RUN apk add --no-cache go
