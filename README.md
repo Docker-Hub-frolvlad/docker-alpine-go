@@ -18,7 +18,7 @@ Usage Example
 
 ```bash
 $ echo -e 'package main; import "fmt"; func main() { fmt.Println("Hello World") }' > qq.go
-$ docker run --rm -v `pwd`:/tmp frolvlad/alpine-go go /tmp/qq.go
+$ docker run --rm -v `pwd`:/tmp frolvlad/alpine-go go run /tmp/qq.go
 ```
 
 Once you have run this command you will get printed 'Hello World' from Go!
